@@ -5,7 +5,9 @@
 </head>
 <body>
 	<header>
-		<h1>CAMPEONATO DE CHINCHON</h1>
+		<div>
+			<h1>CAMPEONATO DE CHINCHON</h1>
+		</div>
 		<nav>
 			<ul>
 				<li><a href="./inscripcion.php">INSCRIPCION</a></li>
