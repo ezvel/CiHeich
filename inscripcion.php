@@ -6,16 +6,16 @@
 </head>
 <body>
 	<header>
-		<div>
+		<div class="header__titular">
 			<h1>CAMPEONATO DE CHINCHON</h1>
 		</div>
-		<nav>
+		<nav class="header__nav">
 			<ul>
-				<li><a href="./inscripcion.php">INSCRIPCION</a></li>
-				<li><a href="./participantes.php">PARTICIPANTES</a></li>
-				<li><a href="./partidas.php">PARTIDAS</a></li>
-				<li><a href="./posiciones.php">POSICIONES</a></li>
-				<li><a href="./seccion_administradores.php">SECCION ADMINISTRACION</a></li>
+				<li class="nav__item"><a href="./inscripcion.php">INSCRIPCION</a></li>
+				<li class="nav__item"><a href="./participantes.php">PARTICIPANTES</a></li>
+				<li class="nav__item"><a href="./partidas.php">PARTIDAS</a></li>
+				<li class="nav__item"><a href="./posiciones.php">POSICIONES</a></li>
+				<li class="nav__item"><a href="./seccion_administradores.php">SECCION ADMINISTRACION</a></li>
 			</ul>
 		</nav>
 	</header>
