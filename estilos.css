@@ -47,3 +47,8 @@ h1 {
 	width: 20%;
 }
 
+.nav__item a {
+	text-decoration: none;
+}
+
+
