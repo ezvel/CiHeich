@@ -1,3 +1,17 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
-	background-color: beige;
+	margin: 0;
+	padding: 0;
+}
+
+
+.header__titular {
+	width: 100%;
+	padding: 10px;
+	text-align: center; /*Al tener el header__titular me permite centrar su contenido, el h1*/
+	background-color: black;
+	color: white;
 }
