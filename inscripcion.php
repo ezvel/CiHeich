@@ -18,6 +18,24 @@
 	</header>
 	<main>
 		<h2>Inscripcion</h2>
+		<!-- Tabla para estructurar el formulario -->
+		<table align="center">
+			<!-- Formulario -->
+			<form action="cargar_participante.php" method="get">
+
+				<!-- Nombre -->
+				<tr><td>Nombre</td></tr>
+				<tr><td><input type="text" name="nombre"></td></tr>
+				<!-- Apellido -->
+				<tr><td>Apellido</td></tr>
+				<tr><td><input type="text" name="apellido"></td></tr>
+
+				<!-- Botones del formulario -->
+				<tr><td><input type="reset" value="RESETEAR" class="negrita"></td></tr>
+				<tr><td><input type="submit" value="INSCRIBIR"></td></tr>
+
+			</form>
+		</table>
 	</main>
 </body>
 </html>
