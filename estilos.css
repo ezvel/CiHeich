@@ -70,20 +70,25 @@ header {
 	background-color: #15714B;
 }
 
-table {
+table{
 	color: #484848;
 	background-color: #F1F1F1;
 	padding: 20px;
 	border-radius: 20px;
+}
+
+.table-form {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	margin-bottom:40px;
 }
+
 
 h2{
 	text-align: center;
 }
 
-table, article{
+.table-form, .table-card {
 	width: 50%;
 	min-width: 572.5px;
 	max-width: 650px;
@@ -113,3 +118,49 @@ input[type="submit"]{
 	font-weight: bolder;
 }
 
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+}
+
+.table-card {
+	text-align: center;
+	padding: 30px;
+	border-radius: 20px;
+}
+
+button {
+	width: 100%;
+}
+
+.table-card .tr-par {
+	background-color: #E5E5E5;
+}
+
+.table-card .tr-impar {
+	background-color: #ECEBEB;
+}
+
+.table-card tr {
+	height: 50px;
+}
+
+i {
+	font-size: 2em;
+	color: black;
+}
+
+.negrita {
+	font-weight: bold;
+}
+
+.rojo {
+	color: red;
+}
+
+.verde {
+	color: green;
+}
