@@ -45,7 +45,7 @@
 			echo "<tr class='tr-par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE'] . "</td></tr>";
 			echo "<tr class='tr-impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO'] . "</td></tr>";
 			echo "<tr class='tr-par'><td class='negrita rojo'>Eliminar</td><td><a href='#'><img src='./trash.svg' width='30px'/></a></td></tr>";
-			echo "<tr class='tr-par'><td class='negrita verde'>Cargar</td><td><a href='#'><img src='./accept.png' width='30px'/></a></td></tr>";
+			echo "<tr class='tr-impar'><td class='negrita verde'>Cargar</td><td><a href='#'><img src='./accept.png' width='30px'/></a></td></tr>";
 			echo "</table>";
 			echo "<i class='fa-solid fa-trash'></i>";
 			//<a href="https://iconscout.com/icons/trash" target="_blank">Trash Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry" target="_blank">Benjamin J sperry</a>
