@@ -50,8 +50,17 @@
 			echo "<i class='fa-solid fa-trash'></i>";
 			//<a href="https://iconscout.com/icons/trash" target="_blank">Trash Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry" target="_blank">Benjamin J sperry</a>
 			//<a href="https://iconscout.com/icons/accept" target="_blank">Accept Icon</a> by <a href="https://iconscout.com/contributors/jemismali" target="_blank">Jemis Mali</a>
+			//https://iconscout.com/icons
 		?>
 
 	</main>
 </body>
+<footer>
+	<div>
+		<a href="https://iconscout.com/icons/trash" target="_blank">Trash Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry" target="_blank">Benjamin J sperry</a>		
+	</div>
+	<div>
+		<a href="https://iconscout.com/icons/accept" target="_blank">Accept Icon</a> by <a href="https://iconscout.com/contributors/jemismali" target="_blank">Jemis Mali</a>		
+	</div>
+</footer>
 </html>
