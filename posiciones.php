@@ -9,7 +9,7 @@
 		<div class="header__titular">
 			<h1>CAMPEONATO DE CHINCHON</h1>
 		</div>
-		<nav class=header__nav>
+		<nav class="header__nav">
 			<ul>
 				<li class="nav__item"><a href="./inscripcion.php">INSCRIPCION</a></li>
 				<li class="nav__item"><a href="./participantes.php">PARTICIPANTES</a></li>
