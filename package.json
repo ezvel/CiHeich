@@ -1,0 +1,25 @@
+{
+  "name": "ciheich",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss src/css/estilos.css -o public/css/estilos.min.css --no-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezvel/campeonato-chinchon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezvel/campeonato-chinchon/issues"
+  },
+  "homepage": "https://github.com/ezvel/campeonato-chinchon#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.22",
+    "postcss-cli": "^10.1.0"
+  }
+}
