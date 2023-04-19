@@ -51,6 +51,31 @@
 			//<a href="https://iconscout.com/icons/trash" target="_blank">Trash Icon</a> by <a href="https://iconscout.com/contributors/benjamin-j-sperry" target="_blank">Benjamin J sperry</a>
 			//<a href="https://iconscout.com/icons/accept" target="_blank">Accept Icon</a> by <a href="https://iconscout.com/contributors/jemismali" target="_blank">Jemis Mali</a>
 			//https://iconscout.com/icons
+			if ($_COOKIE['NOMBRE'] != "" && $_COOKIE['APELLIDO'] != "") {
+				echo "<table cellspacing='0px' class='table-card'>";
+				echo "<tr class='tr-par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE'] . "</td></tr>";
+				echo "<tr class='tr-impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO'] . "</td></tr>";
+				echo "<tr class='tr-par'><td class='negrita rojo'>Eliminar</td><td><a href='./limpiar_cookie.php'><img src='./trash.svg' width='30px'/></a></td></tr>";
+				echo "<tr class='tr-impar'><td class='negrita verde'>Cargar</td><td><a href='./cargar_participantes.php'><img src='./accept.png' width='30px'/></a></td></tr>";
+				echo "</table>";
+			}
+			
+
+			/*
+			if ($_GET['esta_insertado'] == true) {
+				echo "<article class='msj-alert table-card'>";
+				echo "<p>Participante insertado exitosamente</p>";
+				echo "<div><img src='./msj_exitoso.svg' width='50px'/></div>";	
+				echo "</article>";
+			} 
+
+			if ($_GET['esta_insertado'] == false) {
+				echo "<article class='msj-alert table-card'>";
+				echo "<p>Error, no se ha podido ingresar al participante</p>";
+				echo "<div><img src='msj_error.svg' width='50px'/></div>";
+				echo "</article>";
+			}*/
+			
 		?>
 
 	</main>
