@@ -35,6 +35,9 @@ error_reporting(0);
 				<!-- Apellido -->
 				<tr><td class="negrita">Apellido</td></tr>
 				<tr><td><input type="text" name="apellido"></td></tr>
+				<!-- Teléfono -->
+				<tr><td class="negrita">Teléfono</td></tr>
+				<tr><td><input type="number" name="telefono"></td></tr>
 
 				<!-- Botones del formulario -->
 				<tr><td><input type="reset" value="RESETEAR" class="negrita"></td></tr>

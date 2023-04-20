@@ -102,13 +102,20 @@ input {
 	background-color: #F9F9F9;
 }
 
-input[type="text"]{
+input[type="text"] {
+	margin-bottom: 40px;
+	font-size: 16px;
+	color: #5C5C5C;
+}
+
+input[type="number"] {
 	margin-bottom: 40px;
 	font-size: 16px;
 	color: #5C5C5C;
 }
 
 input[type="reset"]{
+	margin-bottom: 40px;
 	margin-bottom: 10px;
 }
 
