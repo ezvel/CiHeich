@@ -84,10 +84,10 @@ error_reporting(0);
 		<?php
 			if ($_COOKIE['NOMBRE'] != "" && $_COOKIE['APELLIDO'] != "") {
 				echo "<table cellspacing='0px' class='table-card'>";
-				echo "<tr class='tr-par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE'] . "</td></tr>";
-				echo "<tr class='tr-impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO'] . "</td></tr>";
-				echo "<tr class='tr-par'><td class='negrita rojo'>Eliminar</td><td><a href='./limpiar_cookie.php'><img src='../../imagenes/trash.svg' width='30px'/></a></td></tr>";
-				echo "<tr class='tr-impar'><td class='negrita verde'>Cargar</td><td><a href='./cargar_participantes.php'><img src='../../imagenes/accept.png' width='30px'/></a></td></tr>";
+				echo "<tr class='par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE'] . "</td></tr>";
+				echo "<tr class='impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO'] . "</td></tr>";
+				echo "<tr class='par'><td class='negrita rojo'>Eliminar</td><td><a href='./limpiar_cookie.php'><img src='../../imagenes/trash.svg' width='30px'/></a></td></tr>";
+				echo "<tr class='impar'><td class='negrita verde'>Cargar</td><td><a href='./cargar_participantes.php'><img src='../../imagenes/accept.png' width='30px'/></a></td></tr>";
 				echo "</table>";
 			}
 	

@@ -31,7 +31,7 @@
 
 
 		echo "<table class='tabla_ver_participantes'>";
-		echo "<tr><td>Numero</td><td>Nombre</td><td>Apellido</td><td>Telefono</td></tr>";
+		echo "<tr><td class='negrita'>Numero</td><td class='negrita'>Nombre</td><td class='negrita'>Apellido</td><td class='negrita'>Teléfono</td></tr>";
 		$contador = 0;
 		while ($registro = mysqli_fetch_row($consulta)) {
 			if ($contador % 2 == 0) {
