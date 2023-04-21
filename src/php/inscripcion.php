@@ -14,7 +14,7 @@ error_reporting(0);
 		</div>
 		<nav class="header__nav">
 			<ul>
-				<li class="nav__item nav__item-par--bg-darkest"><a href="./inscripcion.html">INSCRIPCION</a></li>
+				<li class="nav__item nav__item-par--bg-darkest"><a href="./inscripcion.php">INSCRIPCION</a></li>
 				<li class="nav__item nav__item-impar--bg-lightness"><a href="./participantes.php">PARTICIPANTES</a></li>
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./partidas.php">PARTIDAS</a></li>
 				<li class="nav__item nav__item-impar--bg-lightness"><a href="./posiciones.php">POSICIONES</a></li>
