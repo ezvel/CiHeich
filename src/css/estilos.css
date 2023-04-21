@@ -13,6 +13,7 @@ h1 {
 	margin: 0;
 }
 
+/********************Encabezado del body***********************/
 header {
 	min-width: 1152px;
 }
@@ -70,7 +71,8 @@ header {
 	background-color: #15714B;
 }
 
-table, .msj-alert {
+/****************************Tablas*******************************/
+table {
 	color: #484848;
 	background-color: #F1F1F1;
 	padding: 20px;
@@ -134,6 +136,7 @@ main {
 	padding: 50px;
 }
 
+/***********************COOKIE*******************************/
 .table-card {
 	text-align: center;
 	padding: 30px;
@@ -173,6 +176,7 @@ i {
 	color: green;
 }
 
+/***********************MODAL*******************************/
 .modal-exito {
 	position: absolute;
 	width: 400px;
@@ -252,8 +256,26 @@ i {
 	font-weight: bolder;
 }
 
+.tabla_ver_participantes {
+	width: 80%;
+	min-width: 843.19px;
+	max-width: 850px;
+}
 
+.tabla_ver_participantes tr td {
+	text-align: center;
+}
 
+.tabla_ver_participantes tr {
+	text-align: center;
+	height: 50px;
+}
 
+.par {
+	background-color: #E5E5E5;
+}
 
+.impar {
+	background-color: #ECEBEB;
+}
 
