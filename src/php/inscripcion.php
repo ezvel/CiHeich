@@ -16,8 +16,6 @@ error_reporting(0);
 			<ul>
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./inscripcion.php">INSCRIPCION</a></li>
 				<li class="nav__item nav__item-impar--bg-lightness"><a href="./participantes.php">PARTICIPANTES</a></li>
-				<li class="nav__item nav__item-par--bg-darkest"><a href="./partidas.php">PARTIDAS</a></li>
-				<li class="nav__item nav__item-impar--bg-lightness"><a href="./posiciones.php">POSICIONES</a></li>
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./seccion_administradores.php">SECCION ADMINISTRACION</a></li>
 			</ul>
 		</nav>
@@ -62,23 +60,6 @@ error_reporting(0);
 			</div>
 		</article>
 		
-		<!--
-		<article class="modal-error">
-			<div class="modal__header">
-				<p>Error</p>
-			</div>
-			<div class="modal__body">
-				<p>
-					¡¡¡No se ha podido ingresar al participante!!!
-				</p>
-				<div>
-					<img src="../../imagenes/msj_error.svg">
-				</div>
-			</div>
-			<div class="modal__footer">
-				<button class="cerrar-error">Cerrar</button>
-			</div>
-		</article>-->
 
 		<!--cookies-->
 		<?php

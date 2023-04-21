@@ -45,15 +45,15 @@ header {
 }
 
 .nav__item {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	text-decoration: none;
-	width: 20%;
+	width: 33.33%;
 	background-color: #379D74;
 }
 
 .nav__item a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	text-decoration: none;
 	color: #ffffff;
 	width: 100%;
@@ -147,14 +147,6 @@ main {
 
 button {
 	width: 100%;
-}
-
-.table-card .tr-par {
-	background-color: #E5E5E5;
-}
-
-.table-card .tr-impar {
-	background-color: #ECEBEB;
 }
 
 .table-card tr {
@@ -257,6 +249,8 @@ i {
 .modal__body p {
 	font-weight: bolder;
 }
+
+/******************TABLA VER PARTICIPANTES*********************/
 
 .tabla_ver_participantes {
 	width: 80%;
