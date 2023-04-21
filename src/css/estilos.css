@@ -152,14 +152,6 @@ button {
 	width: 100%;
 }
 
-.table-card .tr-par {
-	background-color: #E5E5E5;
-}
-
-.table-card .tr-impar {
-	background-color: #ECEBEB;
-}
-
 .table-card tr {
 	height: 50px;
 }
@@ -260,6 +252,8 @@ i {
 .modal__body p {
 	font-weight: bolder;
 }
+
+/******************TABLA VER PARTICIPANTES*********************/
 
 .tabla_ver_participantes {
 	width: 80%;
