@@ -56,6 +56,8 @@ header {
 .nav__item a {
 	text-decoration: none;
 	color: #ffffff;
+	width: 100%;
+	height: 100%;
 }
 
 .nav__item-par--bg-darkest {
@@ -262,4 +264,20 @@ i {
 	max-width: 850px;
 }
 
+.tabla_ver_participantes tr td {
+	text-align: center;
+}
+
+.tabla_ver_participantes tr {
+	text-align: center;
+	height: 50px;
+}
+
+.par {
+	background-color: #E5E5E5;
+}
+
+.impar {
+	background-color: #ECEBEB;
+}
 
