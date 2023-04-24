@@ -5,7 +5,7 @@ error_reporting(0);
 <html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="../../public/css/estilos-dist.css">
 </head>
 <body>
 	<header>
@@ -20,7 +20,7 @@ error_reporting(0);
 			</ul>
 		</nav>
 	</header>
-	<main>
+	<main class="minheigh-100vh">
 		<h2>Inscripcion</h2>
 		<!-- Tabla para estructurar el formulario -->
 		<table class="table-form">
