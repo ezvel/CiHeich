@@ -139,6 +139,91 @@ main {
 	padding: 50px;
 }
 
+.minheigh-100vh {
+	min-height: 100vh;
+}
+
+.tabla_ver_participantes {
+	width: 80%;
+	min-width: 843.19px;
+	max-width: 850px;
+}
+
+.tabla_ver_participantes tr td {
+	text-align: center;
+}
+
+.tabla_ver_participantes tr {
+	text-align: center;
+	height: 50px;
+}
+
+.par {
+	background-color: #E5E5E5;
+}
+
+.impar {
+	background-color: #ECEBEB;
+}
+
+.tabla_usuario {
+	width: 600px;
+	height: auto;
+}
+
+.tabla_usuario {
+	width: 500px;
+}
+
+input.mb-20px {
+	margin-bottom: 20px;
+}
+
+input.mb-40px {
+	margin-bottom: 40px;
+}
+
+thead {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+	margin-bottom: 20px;
+}
+
+thead tr {
+	height: 100%;
+	width: 50%;
+}
+
+thead tr th {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+thead a {
+	display: inline-block;
+	text-decoration: none;
+	color: inherit;
+	width: 75%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+thead a:hover {
+	border-top: 2px solid #005050;
+	border-bottom: 2px solid #005050;
+	color: #005050;
+}
+
+
 /***********************COOKIE*******************************/
 .table-card {
 	text-align: center;
@@ -250,29 +335,3 @@ i {
 .modal__body p {
 	font-weight: bolder;
 }
-
-/******************TABLA VER PARTICIPANTES*********************/
-
-.tabla_ver_participantes {
-	width: 80%;
-	min-width: 843.19px;
-	max-width: 850px;
-}
-
-.tabla_ver_participantes tr td {
-	text-align: center;
-}
-
-.tabla_ver_participantes tr {
-	text-align: center;
-	height: 50px;
-}
-
-.par {
-	background-color: #E5E5E5;
-}
-
-.impar {
-	background-color: #ECEBEB;
-}
-
