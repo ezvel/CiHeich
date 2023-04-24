@@ -27,6 +27,33 @@
 				</form>
 			</tbody>
 		</table>
+		<!--ventana modal-->
+		<article class="modal-exito">
+			<div class="modal__header">
+				<p>Mensaje</p>
+			</div>
+			<div class="modal__body">
+				<p>
+					¡¡¡El administrador se ha registrado exitosamente!!!
+				</p>
+				<div>
+					<img src="./imagenes/msj_exitoso.svg">
+				</div>
+			</div>
+			<div class="modal__footer">
+				<button class="cerrar-exito">Cerrar</button>
+			</div>
+		</article>
+
+		<?php
+
+		$esta_insertado = $_GET['esta_insertado'];
+
+		if ($esta_insertado == 1) {
+			echo "<script src='./src/javascript/modal_exito.js'></script>";
+		}
+
+		?>
 	</main>		
 </body>
 </html>

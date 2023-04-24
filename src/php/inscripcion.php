@@ -9,14 +9,22 @@ error_reporting(0);
 </head>
 <body>
 	<header>
+		<div class="header__nombre-usuario">
+			<?php
+			echo "<p class='verde'>" . $_COOKIE['NOMBRE'] . " " . $_COOKIE['APELLIDO'] . "</p>";
+			?>
+			<p>
+				<a href="./cerrar_sesion.php">Cerrar sesión</a>
+			</p>
+		</div>
 		<div class="header__titular">
-			<h1>CAMPEONATO DE CHINCHON</h1>
+			<h1>CiHeich</h1>
 		</div>
 		<nav class="header__nav">
 			<ul>
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./inscripcion.php">INSCRIPCION</a></li>
 				<li class="nav__item nav__item-impar--bg-lightness"><a href="./participantes.php">PARTICIPANTES</a></li>
-				<li class="nav__item nav__item-par--bg-darkest"><a href="./seccion_administradores.php">SECCION ADMINISTRACION</a></li>
+				<li class="nav__item nav__item-par--bg-darkest"><a href="./administradores.php">SECCION ADMINISTRACION</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -77,11 +85,6 @@ error_reporting(0);
             if ($esta_insertado == 1) {
                 echo "<script src='../javascript/modal_exito.js'></script>";
             }
-
-            if($esta_insertado == 0) {
-            	echo "<script src='../javascript/modal_error.js'></script>";
-            }
-
 
 		?>
 
