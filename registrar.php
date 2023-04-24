@@ -47,6 +47,7 @@
 
 		<?php
 
+
 		$esta_insertado = $_GET['esta_insertado'];
 
 		if ($esta_insertado == 1) {

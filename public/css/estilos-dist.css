@@ -375,3 +375,31 @@ i {
 .verde {
 	color: lime;
 }
+
+.azul-bg {
+	background-color: #000050;
+}
+
+.yellow-bg {
+	background-color: #FFC300;
+}
+
+.rojo-bg {
+	background-color: #AA0000;
+}
+
+.azul-bg:hover {
+	background-color: #000090;
+}
+
+.yellow-bg:hover {
+	background-color: #FFDD00;
+}
+
+.rojo-bg:hover {
+	background-color: #BB0000;
+}
+
+.height-50px {
+	height: 50px;
+}
