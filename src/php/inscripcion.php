@@ -1,6 +1,3 @@
-<?php
-error_reporting(0);
-?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -71,10 +68,16 @@ error_reporting(0);
 
 		<!--cookies-->
 		<?php
-			if ($_COOKIE['NOMBRE'] != "" && $_COOKIE['APELLIDO'] != "") {
+
+			error_reporting(0);
+
+			$creo_cookie = $_GET['creo_cookie'];
+			
+			if ($creo_cookie == 1) {
 				echo "<table cellspacing='0px' class='table-card'>";
-				echo "<tr class='par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE'] . "</td></tr>";
-				echo "<tr class='impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO'] . "</td></tr>";
+				echo "<tr class='par'><td class='negrita'>Nombre</td><td>" . $_COOKIE['NOMBRE_PARTICIPANTE'] . "</td></tr>";
+				echo "<tr class='impar'><td class='negrita'>Apellido</td><td>" . $_COOKIE['APELLIDO_PARTICIPANTE'] . "</td></tr>";
+				echo "<tr class='impar'><td class='negrita'>Telefono</td><td>" . $_COOKIE['TELEFONO_PARTICIPANTE'] . "</td></tr>";				
 				echo "<tr class='par'><td class='negrita rojo'>Eliminar</td><td><a href='./limpiar_cookie.php'><img src='../../imagenes/trash.svg' width='30px'/></a></td></tr>";
 				echo "<tr class='impar'><td class='negrita verde'>Cargar</td><td><a href='./cargar_participantes.php'><img src='../../imagenes/accept.png' width='30px'/></a></td></tr>";
 				echo "</table>";
@@ -84,6 +87,7 @@ error_reporting(0);
 			
             if ($esta_insertado == 1) {
                 echo "<script src='../javascript/modal_exito.js'></script>";
+            	$esta_insertado = 0;
             }
 
 		?>

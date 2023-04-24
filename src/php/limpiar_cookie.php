@@ -1,8 +1,8 @@
 <?php
 
-setcookie("NOMBRE", "");
-setcookie("APELLIDO", "");
-setcookie("TELEFONO", "");
+setcookie("NOMBRE_PARTICIPANTE", "");
+setcookie("APELLIDO_PARTICIPANTE", "");
+setcookie("TELEFONO_PARTICIPANTE", "");
 
 header("location:inscripcion.php");
 ?>

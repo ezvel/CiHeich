@@ -8,7 +8,6 @@
 	<header>
 		<div class="header__nombre-usuario">
 			<?php
-			error_reporting(0);
 			echo "<p class='verde'>" . $_COOKIE['NOMBRE'] . " " . $_COOKIE['APELLIDO'] . "</p>";
 			?>
 			<p>
@@ -23,6 +22,13 @@
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./inscripcion.php">INSCRIPCION</a></li>
 				<li class="nav__item nav__item-impar--bg-lightness"><a href="./participantes.php">PARTICIPANTES</a></li>
 				<li class="nav__item nav__item-par--bg-darkest"><a href="./administradores.php">SECCION ADMINISTRACION</a></li>
+			</ul>
+		</nav>
+		<nav class="header__nav">
+			<ul>
+				<li class="nav__item azul-bg height-50px"><a href="./participantes.php">VER</a></li>
+				<li class="nav__item yellow-bg height-50px"><a href="./buscar_para_modificar_participante.php">MODIFICAR</a></li>
+				<li class="nav__item rojo-bg height-50px"><a href="./buscar_para_eliminar_participante.php">ELIMINAR</a></li>
 			</ul>
 		</nav>
 	</header>

@@ -30,9 +30,9 @@ if ($existe == 1) {
 		}
 	}
 
-
 	setcookie("NOMBRE", $nombre);
 	setcookie("APELLIDO", $apellido);
+
 	$_SESSION['usuario'] = "CiHeich";
 	header("location:chequear.php");
 

@@ -33,41 +33,7 @@
 		</ul>
 	</nav>
 	<main>
-		<h2>Sección administración</h2>
-
-		<?php
-
-		include("conexion.php");
-
-		$sql = "SELECT nro_administrador, nombre, apellido, correo_electronico FROM administradores";
-
-		$consulta = mysqli_query($conexion, $sql);
-
-
-		echo "<table class='tabla_ver_administradores'>";
-		echo "<tr><td class='negrita'>Numero</td><td class='negrita'>Nombre</td><td class='negrita'>Apellido</td><td class='negrita'>Correo electronico</td></tr>";
-		$contador = 0;
-		while ($registro = mysqli_fetch_row($consulta)) {
-			if ($contador % 2 == 0) {
-				echo "<tr class='par'>";
-				foreach($registro as $dato) {
-					echo "<td>$dato</td>";
-				}
-				echo "</tr>";
-			} else {
-				echo "<tr class='impar'>";
-				foreach($registro as $dato) {
-					echo "<td>$dato</td>";
-				}
-				echo "</tr>";
-			}
-
-			$contador++;
-		}
-
-		echo "</table>";
-
-		?>
+		<h2>Modificar participante</h2>
 	</main>
 </body>
 </html>
