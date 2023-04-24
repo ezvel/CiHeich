@@ -79,7 +79,7 @@ table {
 	color: #484848;
 	background-color: #F1F1F1;
 	padding: 20px;
-	border-radius: 20px;
+	border-radius: 0px;
 }
 
 .table-form {
@@ -103,7 +103,7 @@ input {
 	width: 100%;
 	height: 40px;
 	border: none;
-	border-radius: 10px;
+	border-radius: 0px;
 	background-color: #F9F9F9;
 }
 
@@ -218,8 +218,7 @@ thead a {
 }
 
 thead a:hover {
-	border-top: 2px solid #005050;
-	border-bottom: 2px solid #005050;
+	border: 2px solid #005050;
 	color: #005050;
 }
 
